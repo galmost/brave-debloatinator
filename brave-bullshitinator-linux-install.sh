@@ -2,10 +2,10 @@
 echo "Starting Brave debullshitinator installer"
 echo "Brave debullshitinator is made by Mules Gaming. Find it here: https://github.com/MulesGaming/brave-debullshitinator"
 # Make dir
-sudo mkdir /etc/brave/policies/managed -p
+sudo mkdir /etc/brave/policies/managed -p || exit 0
 # Download file
-wget https://github.com/MulesGaming/brave-debullshitinator/releases/download/1.0.4/brave_debullshitinator-policies.json
-sudo cp brave_debullshitinator-policies.json /etc/brave/policies/managed
-rm brave_debullshitinator-policies.json
+wget https://github.com/galmost/brave-debloatinator/blob/main/brave-bullshitinator-linux-install.sh || exit 0
+sudo cp brave_debullshitinator-policies.json /etc/brave/policies/managed || exit 0
+ls brave_debullshitinator-policies.json && rm brave_debullshitinator-policies.json
 # End
 echo "Brave debullshitinator installed"
