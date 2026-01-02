@@ -4,7 +4,7 @@ echo "Brave debullshitinator is made by Mules Gaming. Find it here: https://gith
 # Make dir
 sudo mkdir /etc/brave/policies/managed -p || exit 0
 # Download file
-wget https://github.com/galmost/brave-debloatinator/blob/main/brave-bullshitinator-linux-install.sh || exit 0
+ls brave-bullshitinator-linux-install.sh || wget https://github.com/galmost/brave-debloatinator/blob/main/brave-bullshitinator-linux-install.sh || exit 0
 sudo cp brave_debullshitinator-policies.json /etc/brave/policies/managed || exit 0
 ls brave_debullshitinator-policies.json && rm brave_debullshitinator-policies.json
 # End
