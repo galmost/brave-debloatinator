@@ -7,5 +7,6 @@
     "TorDisabled": true,
     "PasswordManagerEnabled": false,
     "DnsOverHttpsMode": "automatic",
-    "BrowserThemeColor": "#ff6b35"
+    "BraveColorTheme": 2,
+    "ForcedColors": "dark"
 }
